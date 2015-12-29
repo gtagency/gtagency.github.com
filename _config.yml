@@ -21,3 +21,6 @@ version:             1.0.0
 github_url: https://github.com/gtagency
 
 markdown: redcarpet
+
+gems:
+  - jekyll-mentions
