@@ -6,7 +6,7 @@ title: Resources
 ## Officer Team
 
  - External Relations: Joshua Morton, @joshuamorton
- - Internal Operations: Raphael Lopez, @iRapha
+ - Internal Operations: Raphael Gontijo Lopes, @iRapha
  - Treasurer: Daniel Cohen, @dacohen
  - Secretary: Robert Smith, @rob2001
  - Communications: Sarah Storer
