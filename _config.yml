@@ -67,7 +67,6 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: "fengzhichu.com"
 paginate: 5
 paginate_path: "blog/page:num"
 permalink: blog/:title/ 
@@ -86,4 +85,4 @@ sass:
 
 gems:
   - jekyll-paginate
-  - jekyll-mention
+  - jekyll-mentions

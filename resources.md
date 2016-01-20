@@ -11,7 +11,7 @@ feature-img: "img/sample_feature_img_2.png"
  - Internal Operations: Raphael Gontijo Lopes, @iRapha
  - Treasurer: Daniel Cohen, @dacohen
  - Secretary: Robert Smith, @rob2001
- - Communications: Sarah Storer
+ - Communications: Sarah Storer @sastorer
 
 ## Notable Alum
 
