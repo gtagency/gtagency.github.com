@@ -80,6 +80,7 @@ sechby:
 # BUILD SETTINGS
 markdown: redcarpet
 highlighter: pygments
+extensions: ["fenced_code_blocks", "autolink"]
 sass:
   sass_dir: _sass
   style: :compressed
