@@ -1,0 +1,14 @@
+- slug: home
+  name: Home
+
+- slug: feed
+  name: Feed
+
+- slug: blog
+  name: Blog
+
+- slug: projects
+  name: Projects
+
+- slug: contact
+  name: Projects
