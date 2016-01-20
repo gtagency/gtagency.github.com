@@ -1,5 +1,6 @@
 ---
 layout: page
+hide: True
 title: Welcome
 feature-img: "img/sample_feature_img_1.png"
 ---
