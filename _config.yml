@@ -12,7 +12,7 @@ theme:
   yoursitetitle: GT Agency
   yoursitesubtitle: We Create The Agents
   gravatar: # Email MD5 hash
-  description: "used by search engines" # used by search engines
+  description: "The Agency, Georgia Tech's undergraduate Automated Intelligence research club" # used by search engines
   visiblewords: 10000
   # Header and footer text
   header_text: >
@@ -21,7 +21,7 @@ theme:
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
   footer_text: >
-   <a href="https://yoursite.com">YOUR TITLE</a> 
+   <a href="https://gtagency.github.io/">GT Agency</a> 
 
   # Icons
   rss: false
