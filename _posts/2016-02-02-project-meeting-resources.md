@@ -37,7 +37,7 @@ Later on, we can use other corpora for generating text. Maybe even call reddit's
 ### Getting everyone set up
 
 Guys, we want to be able to reach out to everyone. So please join the [email list](https://docs.google.com/forms/d/1SqYfolQ_c_e_gNINMtI1DxQhLzIC_y_ff_bqt7e5LNo/viewform?c=0&w=1). We will also discuss whether we want to set up a slack. It's a great way group chat service!
-As always, you can get the latest announcements on the [feed](http://gtagency.github.io/Feed), or on [facebook](https://facebook.com/gtagency). And because the Agency is a white girl, we have a [twitter](https://twitter.com/theagencygt) and [instagram](https://instagram.com/theagencygt) for bragging about the cool stuff we do.
+As always, you can get the latest announcements on the [feed](http://gtagency.github.io/Feed), or on [facebook](https://facebook.com/gtagency). We also have a [twitter](https://twitter.com/theagencygt) and [instagram](https://instagram.com/theagencygt) for bragging about the cool stuff we do.
 
 A lot of people in the club were here last semester, but we have a number of new people and we need to get them set up.
 This means that while some of you will be working on Markov Chains, the rest can get a quick crash course on git/github!
