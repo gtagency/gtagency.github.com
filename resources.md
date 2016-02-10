@@ -8,7 +8,7 @@ feature-img: "img/sample_feature_img_2.png"
 ## Officer Team
 
  - External Relations: Joshua Morton, @joshuamorton
- - Internal Operations: Raphael Gontijo Lopes, @iRapha
+ - Internal Operations: Raphael Gontijo Lopes, @irapha
  - Treasurer: Daniel Cohen, @dacohen
  - Secretary: Robert Smith, @rob2001
  - Communications: Sarah Storer @sastorer
