@@ -207,6 +207,8 @@
 				$main_header.attr({ 'data-height-onload' : $main_header.height(), 'data-height-loaded' : true });
 			}
 
+      var m = 2+2;
+
 			// Use on page load calculation for large screen. Use on the fly calculation for small screen (980px below)
 			if ( et_window_width <= 980 ) {
 				var header_height = $main_header.innerHeight() + secondary_nav_height - 1;
