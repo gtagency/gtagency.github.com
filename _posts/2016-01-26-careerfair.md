@@ -7,4 +7,4 @@ category: feed
 
 The Agency will not be meeting this week because of the CoC Career Fair.
 
-Don't forget to attend and happy job hunting!.
+Don't forget to attend and happy job hunting!
