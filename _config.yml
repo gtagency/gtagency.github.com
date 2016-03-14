@@ -23,6 +23,8 @@ theme:
   footer_text: >
    <a href="https://gtagency.github.io/">GT Agency</a> 
 
+  body_classes: "home blog et_pb_button_helper_class home-posts et_fixed_nav et_show_nav et_cover_background et_pb_gutter windows et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_right_sidebar chrome"
+
   # Icons
   rss: false
   email_address: "contactgtagency@gmail.com" # Full email address, e.g. "sam@example.com"
