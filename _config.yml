@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "" # Set it to "" if use for personal site. The subpath of your site, e.g. /blog/
 url: "https://gtagency.com/" # the base hostname & protocol for your site
-imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
+imageurl: "http://il4.picdn.net/shutterstock/videos/5293946/thumb/1.jpg" #"https://unsplash.it/2600/500?random"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -12,7 +12,7 @@ theme:
   yoursitetitle: GT Agency
   yoursitesubtitle: We Create The Agents
   gravatar: # Email MD5 hash
-  description: "The Agency, Georgia Tech's undergraduate Automated Intelligence research club" # used by search engines
+  description: "The Agency, Georgia Tech's Undergraduate Automated Intelligence research club" # used by search engines
   visiblewords: 10000
   # Header and footer text
   header_text: >
