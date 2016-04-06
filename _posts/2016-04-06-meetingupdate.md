@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 4/6/16 Meeting Update
+title: 4/6/16 Weekly Meeting Update
 author: Sarah
 category: feed
 ---
