@@ -4,9 +4,9 @@
 			<span class="logo_helper"></span>
 			<a href="{{ site.baseurl }}/">
 				<!--img src="http://blog.ibireme.com/wp-content/uploads/2015/05/logo1.png" alt="Garan no dou" id="logo" data-height-percentage="54" /-->
-				{{ site.theme.yoursitetitle }}
+				{{ site.theme_cfg.yoursitetitle }}
         <span class="logo_subtitle">
-          {{ site.theme.yoursitesubtitle }}
+          {{ site.theme_cfg.yoursitesubtitle }}
         </span>
       </a>
 		</div>
@@ -15,7 +15,7 @@
 				<ul id="top-menu" class="nav">
 					<li>
 						<a class="page-link" href="{{ site.baseurl }}/">
-							{{ site.theme.hometitle }}
+							{{ site.theme_cfg.hometitle }}
 						</a>
 					</li>
 					{% for page in site.pages %}

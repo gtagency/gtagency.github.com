@@ -4,7 +4,7 @@ url: "https://gtagency.com/" # the base hostname & protocol for your site
 imageurl: "http://il4.picdn.net/shutterstock/videos/5293946/thumb/1.jpg" #"https://unsplash.it/2600/500?random"
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_cfg:
   # Meta
   title: GT Agency
   #avatar: avatar.png
