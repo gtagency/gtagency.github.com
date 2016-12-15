@@ -7,11 +7,11 @@ feature-img: "img/sample_feature_img_2.png"
 
 ## Officer Team
 
- - External Relations: Joshua Morton, @joshuamorton
- - Internal Operations: Raphael Gontijo Lopes, @irapha
- - Treasurer: Daniel Cohen, @dacohen
- - Secretary: Robert Smith, @rob2001
- - Communications: Sarah Storer @sastorer
+ - External Relations: Raphael Gontijo Lopes, @irapha
+ - Internal Operations: Diptodip Deb, @diptodip
+ - Treasurer: Marc Marone, @ruyimarone
+ - Secretary: Sahit Chintalapudi, @chsahit
+ - Communications: Valentine Wilson, @vawilson
 
 ## Notable Alum
 
