@@ -9,8 +9,8 @@ Welcome! We are The Agency, a club at Georgia Tech focused on Artificial Intelli
 
 We also have weekly project meetings on Tuesdays at 6pm in CCB 345 for those interested in implementing machine learning projects in a group setting. 
 
-If you want to check out out prior projects:
+If you want to check out out prior projects: [GitHub](https://github.com/gtagency)
 
-We also have a Slack for our various projects:
+We also have a Slack for our various projects: [Slack](https://gtagency.slack.com/)
 
-And here's a link to our Facebook page:
+And here's a link to our Facebook page: [Facebook](https://www.facebook.com/gtagency/)
