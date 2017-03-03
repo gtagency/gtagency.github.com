@@ -1,11 +1,6 @@
-{% if site.theme_cfg.katex %}
-<script src="{{ "/js/katex_init.js" | prepend: site.baseurl }}"></script>
-{% endif %}
-
-{% if site.theme_cfg.footer_text %}
-<footer id="page-footer-trans" class="page-footer">
-	<!--<p class="text">{{ site.theme_cfg.footer_text }}</p>-->
-	Copyright &copy; {{ site.time | date: '%Y' }} {{ site.theme_cfg.footer_text }} All Rights Reserved. 
-	<p class="text">Hosted by <a href="https://github.com">GitHub</a>. </p>
+<footer>
+    <div id="footer" class="card" style="text-align: center;">
+        <a href="https://github.com/theoryclub" style="padding-right: 5px;"><span class="mega-octicon octicon-mark-github"></span></a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" style="padding-left: 5px;"><span class="mega-octicon octicon-heart"></span></a>
+    </div>
 </footer>
-{% endif %}
