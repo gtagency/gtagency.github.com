@@ -1,6 +1,6 @@
 ---
 title: "Word Embeddings: Aiding Sequence Learning"
-header: Word Embeddings: Aiding Sequence Learning
+header: Word Embeddings - Aiding Sequence Learning
 date: 2016-10-26 00:00:00 -0400
 categories: announcement
 author: Raphael Gontijo Lopes

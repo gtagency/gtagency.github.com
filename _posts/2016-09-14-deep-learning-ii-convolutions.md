@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning II: Convolutions"
-header: Deep Learning II: Convolutions
+header: Deep Learning II - Convolutions
 date: 2016-09-14 00:00:00 -0400
 categories: announcement
 author: Raphael Gontijo Lopes

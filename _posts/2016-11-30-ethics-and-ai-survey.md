@@ -1,6 +1,6 @@
 ---
 title: "Ethics & Ai: A Survey"
-header: Ethics & Ai: A Survey
+header: Ethics and Ai - A Survey
 date: 2016-11-30 00:00:00 -0400
 categories: announcement
 author: Raphael Gontijo Lopes
