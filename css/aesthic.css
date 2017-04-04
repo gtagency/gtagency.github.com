@@ -307,9 +307,9 @@ ul li:last-child {
     border: none;
 }
 
-h3[class*="info"] a {
-    text-decoration: none;
-    float: none;
+.fa {
+    font-size: 1.3em !important;
+    vertical-align: middle !important;
 }
 
 #continuelink {
