@@ -16,16 +16,19 @@ markdown: kramdown
 
 # Defaults
 defaults:
-    -
-        scope:
-            path: ''
-            type: 'posts'
-        values:
-            layout: post
-            includecss: post.css
-            moreexists: true
-            permalink: /:year/:title
-            author: GT Agency
+    - scope:
+        path: ''
+        type: 'posts'
+      values:
+        layout: post
+        includecss: aesthic.css
+        moreexists: true
+        permalink: /:year/:title
+        author: GT Agency
+    - scope:
+        path: 'photos/'
+      values:
+        photo: true
 
 # PAGINATION
 paginate: 5

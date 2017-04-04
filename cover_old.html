@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {{ page.title }}
+        </title>
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300" rel="stylesheet">
+        <link rel="stylesheet" href="{{ "/octicons/octicons.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
+        <meta charset="utf-8">
+        <meta name="author" content="GT Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ site.description }}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="is-hidden-touch">
+                {% include navbar.html %}
+            </div>
+            <div id="navigation_center" class="is-hidden-desktop">
+                {% include navbar_center.html %}
+            </div>
+            <section class="hero is-fullheight">
+                <div class="hero-head" style="">
+                    <div class="container">
+                        <div class="container" style="text-align: center;">
+                            <img src="agency.jpg" class="logo"></img>
+                        </div>
+                        <div class="columns is-multiline">
+                                <div id="greetings-box" class="column is-3">
+                                    <h1 class="subtitle is-3 top-border white-text">Who We Are</h1>
+                                    <p>{{ page.aboutus }}</p>
+                                </div>
+                            <div class="column is-9">
+                                <h2 class="top-border subtitle is-3" style="margin-top: 1.0em;">Recent Projects</h2>
+                                <p class="subtitle">Some of our latest work.</p>
+                                <div class="column is-3">
+                                
+                            </div>
+                            <div class="column is-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-2by1">
+                                            <img class="project-image" src="https://cdn.tutsplus.com/photo/uploads/legacy/746_aspectratio/07.jpg"></img>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content" style="background: #000 !important; color: #fff !important;">
+                                        <div class="content" style="color: #fff !important; text-align:center !important;">
+                                            <p>{{ page.project2 }}</p>
+                                            <a class="button is-white" href="{{ page.project2link }}">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-2by1">
+                                            <img class="project-image" src="https://cdn.tutsplus.com/photo/uploads/legacy/746_aspectratio/07.jpg"></img>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content" style="background: #000 !important; color: #fff !important;">
+                                        <div class="content" style="color: #fff !important; text-align:center !important;">
+                                            <p>{{ page.project3 }}</p>
+                                            <a class="button is-white" href="{{ page.project3link }}">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-2by1">
+                                            <img class="project-image" src="https://cdn.tutsplus.com/photo/uploads/legacy/746_aspectratio/07.jpg"></img>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content" style="background: #000 !important; color: #fff !important;">
+                                        <div class="content" style="color: #fff !important; text-align:center !important;">
+                                            <p>{{ page.project4 }}</p>
+                                            <a class="button is-white" href="{{ page.project4link }}">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-2by1">
+                                            <img class="project-image" src="https://cdn.tutsplus.com/photo/uploads/legacy/746_aspectratio/07.jpg"></img>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content" style="background: #000 !important; color: #fff !important;">
+                                        <div class="content" style="color: #fff !important; text-align:center !important;">
+                                            <p>{{ page.project5 }}</p>
+                                            <a class="button is-white" href="{{ page.project5link}}">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-3">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-2by1">
+                                            <img class="project-image" src="https://cdn.tutsplus.com/photo/uploads/legacy/746_aspectratio/07.jpg"></img>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content" style="background: #000 !important; color: #fff !important;">
+                                        <div class="content" style="color: #fff !important; text-align:center !important;">
+                                            <p>{{ page.project6}}</p>
+                                            <a class="button is-white" href="{{ page.project6link }}">More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="footer-container">
+    {% include footer.html %}
+</div>
+                </div>
+            </body>
+        </html>

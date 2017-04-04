@@ -5,36 +5,82 @@
             {{ page.title }}
         </title>
         <link rel="icon" href="favicon.ico">
-        <link href='https://fonts.googleapis.com/css?family=Catamaran:700,400' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Oswald:,400' rel='stylesheet' type='text/css'>
+        <!--
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300" rel="stylesheet">
+        !-->
         <link rel="stylesheet" href="{{ "/octicons/octicons.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
-        <link rel="stylesheet" href="{{ "/css/cover.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
         <meta charset="utf-8">
-        <meta name="author" content="Theory Club">
+        <meta name="author" content="GT Agency">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="{{ site.description }}">
     </head>
     <body>
         <div id="wrapper">
-            <div id="navigation">
+            <div id="navigation" class="is-hidden-touch">
                 {% include navbar.html %}
             </div>
-            <div id="greetings" class="card">
-                <h1 class="logo" style="font-family: 'Oswald' !important; font-size: 4em !important;">
-                    THE<a style="color:#33cccc !important; font-family: 'Catamaran' !important; font-weight: 700 !important; font-size: 1.27em !important;">O</a>RY CLUB
-                </h1>
-                <h1>
-                    <strong>
-                        {{ page.greeting }}
-                    </strong>
-                </h1>
+            <div id="navigation_center" class="is-hidden-desktop">
+                {% include navbar_center.html %}
             </div>
-            <div id="message" class="card">
-                <p>
-                {{ content }}
-                </p>
-            </div>
+            <section class="hero is-fullheight">
+                <div class="container horizontal-center">
+                    <div class="hero-head">
+                        <div class = "horizontal-center has-text-centered padded is-hidden-desktop">
+                            <img src="/agency_background.png" style="max-width: 300px;"></img>
+                        </div>
+                    </div>
+                    <div class="hero-body">
+                        <div class = "container welcome-width">
+                            <div class = "tile is-ancestor">
+                                <div class = "tile is-parent is-vertical">
+                                    <div class = "tile is-child">
+                                    </div>
+                                    <div class = "tile is-child has-text-left">
+                                        <h1 class="welcome thick-text">
+                                            Welcome to <i>The Agency</i>.</br> We're the AI/ML club</br>at Georgia Tech.
+                                        </h1>
+                                        </br>
+                                        <h2>
+                                            We meet at 6:30PM on Wednesdays and 6:00PM on Tuesdays.
+                                        </h2>
+                                    </div>
+                                    <div class = "tile is-child">
+                                        <div class = "columns">
+                                            <div class = "column has-text-left">
+                                                <h3 class = "underline">
+                                                    Current Projects
+                                                </h3>
+                                                <ul>
+                                                    <li>+ <a href="{{ page.project1link }}">{{ page.project1 }}</a>
+                                                    </li>
+                                                    <li>+ <a href="{{ page.project2link }}">{{ page.project2 }}</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class = "column has-text-left">
+                                                <h3 class = "underline">
+                                                    Recent Lecture
+                                                </h3>
+                                                {% assign post = site.posts.first %}
+                                                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>
+                                                {{ post.author }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "tile is-parent is-vertical is-hidden-touch is-5">
+                                    <div class = "tile is-child">
+                                        <img src="/agency_background.png"></img>
+                                    </div>
+                                    <div class = "tile is-child">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div id="footer-container">
                 {% include footer.html %}
             </div>

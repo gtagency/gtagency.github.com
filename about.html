@@ -1,0 +1,71 @@
+---
+layout: default
+moreexists: false
+showfeed: true
+permalink: /about
+title: About
+includecss: aesthic.css
+---
+<div class="container">
+    <div class="columns">
+        <div class="column is-5" style="padding: 1em;">
+            <h1 class="thick-text">History</h1>
+            <p>bee bee bees bee-men bees bee bee bees bee bees bees bees bees bee bee bee bee bees beer bee bees bee bee bee bee bee bee bee bee bee bees bee been bee-ish bee bee bee bee bee bee bee bee bee bee bee been bee bee-ish bees bee bees bees bees bee bee bee bees bee bee bee been bees bees bee bee bee bee bees been bee bee bee bee bee bee been been bees bees honeybee bee bee bees bee bee bees beekeepers beekeeper bee-free-ers bees bees bees been bee been bees bees bee bee bees bee bees bee bee bee bee bees been honeybees bees bees bees bees bees bees bee bee bees been bees bees bees bees bees bees bees bees been bee bee bee-negative bees bees bees bees bees bee bees been bee bee bee bee bee bees bees bee beep-beep beep-beep been bee bee bee bee bee bee bee bee bee bee bee bee bee bees bees bees bees bee-approved bee bee bee</p>
+        </div>
+        <div class="column" style="padding: 1em;">
+            <h1 class=" thick-text">Current Officers</h1>
+            <ul>
+                <li>
+                    <h2><b>External Affairs</b> </br> <a href="">Raphael Gontijo Lopes</a></h2>
+                    <p>He's aight.</p>
+                </li>
+                <li>
+                    <h2><b>Internal Affairs</b> </br> <a href="https://diptodip.github.io">Diptodip Deb</a></h2>
+                    <p>Bad at HTML. </p>
+                </li>
+                <li>
+                    <h2><b>Treasurer</b> </br> <a href="">Ru Yi Marone</a></h2>
+                    <p>Mediocre TA.</p>
+                </li>
+                <li>
+                    <h2><b>Secretary</b> </br> <a href="">Sahit Chintalapudi</a></h2>
+                    <p>Taylor Swift fan.</p>
+                </li>
+                <li>
+                    <h2><b>Communications</b> </br> <a href="">Valentine Wilson</a></h2>
+                    <p>Pro skater Tony Hawk.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="column" style="padding: 1em;">
+
+
+            <h1 class="thick-text">Noteable Alumni</h1>
+
+            <ul>
+                <li>
+                    <h2>Jesse Rosalia</h2>
+                    <p>Founding Member (External Relations).</p>
+                </li>
+                <li>
+                    <h2>Rachel Clark</h2>
+                    <p>Founding Member (External Relations)</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+	<section>
+		<h1 class=" thick-text center-text matched-padding padded">Photos</h1>
+		<div class="columns is-multiline">
+		{% for photo in site.static_files %}
+			{% if photo.path contains 'photos/' %}
+				<div class="column is-4 container padded">
+					<figure>
+						<img src="{{ site.baseurl }}{{ photo.path }}"></img>
+					</figure>
+				</div>
+			{% endif %}
+		{% endfor %}
+		</div>
+	</section>
+</div>

@@ -4,43 +4,37 @@
         <title>
             {{ page.title }}
         </title>
-        <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-        <link href='https://fonts.googleapis.com/css?family=Catamaran:700,400' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lora:700,400' rel='stylesheet' type='text/css'>
+        <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="{{ "/octicons/octicons.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
-        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-        {% if page.includecss != blank %}
-        <link rel="stylesheet" href="{{ "/css/" | prepend: site.baseurl | append: page.includecss }}">
-        {% endif %}
+        <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
         <meta charset="utf-8">
-        <meta name="author" content="Theory Club">
+        <meta name="author" content="GT Agency">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="{{ site.description }}">
     </head>
     <body>
         <div id="wrapper">
-            <div id="navigation">
+            <div id="navigation" class="is-hidden-touch">
                 {% include navbar.html %}
             </div>
-            <div id="header" class="card">
-                <h1 class="info" style="text-align: center;">
-                    <strong>
-                        {{ page.header}}
-                    </strong>
-                </h1>
-                <h3 class="info">written by {{ page.author }}</h3>
-                <h4 class="info">published {{ page.date | date: "%B %d, %Y" }}</h4>
+            <div id="navigation_center" class="is-hidden-desktop">
+                {% include navbar_center.html %}
             </div>
-            <div id="content" class="card">
-                {{ content }}
-                {% if page.moreexists %}
-                    {% include more.html prev=page.previous.title prevurl = page.previous.url prevdescription = page.previous.excerpt %}
-                {% endif %}
+            <div id="content" class="container">
+                <div class="center-text padded">
+                    <h1>{{ page.title }}</h1>
+                    <h2>{{ page.date | date: "%B %d, %Y" }}</h2>
+                    <h3>{{ page.author }}</h3>
+                </div>
+                <div class="post-width padded">
+                    {{ content }}
+                </div>
             </div>
+        </div>
             <div id="footer-container">
                 {% include footer.html %}
             </div>
-        </div>
+            </div>
     </body>
 </html>
