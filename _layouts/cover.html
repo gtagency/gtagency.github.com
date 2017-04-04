@@ -59,8 +59,12 @@
                                                 <h3 class = "underline">
                                                     Recent Lecture
                                                 </h3>
-                                                {% assign post = site.posts.first %}
-                                                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>
+                                                <ul>
+                                                    {% assign post = site.posts.first %}
+                                                    <li>
+                                                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>
+                                                    </li>
+                                                </ul>
                                                 {{ post.author }}
                                             </div>
                                             <div class = "column has-text-left">
