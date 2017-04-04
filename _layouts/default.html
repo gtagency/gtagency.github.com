@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-<!--<![endif]-->
-  {% include head.html %}
-  <body>
-    <div id="page-container-container" class="{{ site.theme_cfg.body_classes }}">
-      <div id="page-container">
-          {% include header.html %}
-          <div id="et-main-area">
-              {{ content }}
-          </div> <!-- #et-main-area -->
-      </div> <!-- #page-container -->
-      {% include footer.html %}
-      {% include script.html %}
-    </div>
-  </body>
+<html lang="en">
+    <head>
+        <title>
+            {{ page.title }}
+        </title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="{{ "/octicons/octicons.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
+        <meta charset="utf-8">
+        <meta name="author" content="GT Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ site.description }}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="is-hidden-touch">
+                {% include navbar.html %}
+            </div>
+            <div id="navigation_center" class="is-hidden-desktop">
+                {% include navbar_center.html %}
+            </div>
+            <div id="content" class="container padded">
+                <h1 class="thick-text">{{ page.title }}</h1>
+                {{ content }}
+            </div>
+        </div>
+            <div id="footer-container">
+                {% include footer.html %}
+            </div>
+            </div>
+    </body>
 </html>

@@ -1,18 +1,7 @@
 ---
+
 ---
-// External
-@import 'external/reset';
-@import 'external/syntax';
-
-// Base
-@import 'base/variables';
-@import 'base/global';
-@import 'base/utility';
-
-// Posts
-@import 'layouts/posts';
-@import 'layouts/index';
-
-// Partials
-@import 'includes/header';
-@import 'includes/footer';
+@import "utilities/_all";
+@import "grid/_all";
+@import "layout/_all";
+@import "base/helpers";

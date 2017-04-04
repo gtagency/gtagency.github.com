@@ -1,53 +1,40 @@
----
-layout: default
----
-{% assign post = page %}
-{% include post_tags_category.html %}
-
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
-
-<!--article {% if page.feature-img %}class="feature-image"{% endif %} >
-  <div style="background-image: url('{{ site.baseurl }}/{{ page.feature-image }}')"/>
-  <header style="background-image: url('{{ site.imageurl }}')" -->
-    <h1 class="title">{{ page.title }}</h1>
-    <p id="subtitletrans" class="subtitlecontainer">
-    <a class="subtitle">{{ page.date | date: '%B %d, %Y' }}</a>
-    {% if page.author %} | <a class="subtitle" href="{{ site.baseurl }}/About/">{{ page.author }}</a>{% endif %}
-  {% if post.category and post.tags %} | <a class="subtitle">{{ category_content }}</a> <a class="subtitle">{{ tags_content }}</a>{% endif %}
-    </p>
-  </header>
-  <section class="post-content">
-  {{ content }}
-  </section>
-  
-</article>
-
-<!-- Post navigation -->
-{% if site.theme_cfg.post_navigation %}
-<div id="post-nav">
-    {% if page.previous.url %}
-    <a id="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">
-      <span class="page-title">{{ page.previous.title }}</span>
-      <span class="nav-label">
-        <i class="fa fa-chevron-left"></i> {{ site.theme_cfg.str_prev }}
-      </span>
-    </a>
-    {% endif %}
-    {% if page.next.url %}
-    <a id="next-post" href="{{ site.baseurl }}{{ page.next.url }}">
-       <span class="page-title">{{ page.next.title }}</span>
-       <span class="nav-label">
-        {{ site.theme_cfg.str_next }} <i class="fa fa-chevron-right"></i>
-       </span>
-     </a>
-    {% endif %}
-</div>
-{% endif %}
-
-<!-- Disqus -->
-{% if site.theme_cfg.disqus_shortname %}
-<div class="comments">
-  {% include disqus.html %}
-</div>
-{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {{ page.title }}
+        </title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="{{ "/octicons/octicons.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
+        <meta charset="utf-8">
+        <meta name="author" content="GT Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ site.description }}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="is-hidden-touch">
+                {% include navbar.html %}
+            </div>
+            <div id="navigation_center" class="is-hidden-desktop">
+                {% include navbar_center.html %}
+            </div>
+            <div id="content" class="container">
+                <div class="center-text padded">
+                    <h1>{{ page.title }}</h1>
+                    <h2>{{ page.date | date: "%B %d, %Y" }}</h2>
+                    <h3>{{ page.author }}</h3>
+                </div>
+                <div class="post-width padded">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+            <div id="footer-container">
+                {% include footer.html %}
+            </div>
+            </div>
+    </body>
+</html>
