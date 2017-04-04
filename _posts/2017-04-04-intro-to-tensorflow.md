@@ -3,7 +3,7 @@ title: "Introduction to TensorFlow"
 header: Introduction to TensorFlow
 date: 2017-04-04 00:00:00 -0400
 categories: announcement
-author: Raphael Gontijo-Lopes
+author: Raphael Gontijo Lopes
 moreexists: false
 ---
 <iframe width="640" height="360" src="https://www.youtube.com/embed/DYlHnxfrrZY" frameborder="0" allowfullscreen></iframe>
