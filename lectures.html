@@ -11,6 +11,7 @@ title: Lectures
             {% assign post = site.posts.first %}
             <h1>{{ post.title }}</h1>
             <h3> {{ post.author }} </h3>
+            </br>
             {{ post.content }}
         </div>
         <div class = "column">
@@ -22,9 +23,9 @@ title: Lectures
                 <ul style="padding-bottom: 50px; margin-bottom: 50px;">
                     {% for post in site.posts %}
                         <li>
-                            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-                            <h4">{{ post.date | date: "%b %-d, %Y" }}</h4>
-                            <h4">{{ post.author | date: "%b %-d, %Y" }}</h4>
+                            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                            <h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
+                            <h4><i>{{ post.author | date: "%b %-d, %Y" }}</i></h4>
                         </li>
                     {% endfor %}
                 </ul>
