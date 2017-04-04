@@ -6,7 +6,7 @@ categories: announcement
 author: Raphael Gontijo-Lopes
 moreexists: false
 ---
-<iframe width="640" height="360" src="https://www.youtube.com/embed/flL5b1NaSPE" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=DYlHnxfrrZY" frameborder="0" allowfullscreen></iframe>
 
 We're finally posting the TensorFlow talk that we recorded!
 
