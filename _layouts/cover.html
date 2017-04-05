@@ -5,12 +5,9 @@
             {{ page.title }}
         </title>
         <link rel="icon" href="favicon.ico">
-        <!--
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300" rel="stylesheet">
-        !-->
-        <link rel="stylesheet" href="{{ "/octicons/octicons.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl}}">
         <meta charset="utf-8">
         <meta name="author" content="GT Agency">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,7 +40,7 @@
                                         </h1>
                                         </br>
                                         <h2>
-                                            We meet at 6:30PM on Wednesdays and 6:00PM on Tuesdays.
+                                            We meet at 6:30PM on Wednesdays (CCB 345) and 6:00PM on Tuesdays (CCB 346).
                                         </h2>
                                     </div>
                                     <div class = "tile is-child">
@@ -52,19 +49,38 @@
                                                 <h3 class = "underline">
                                                     Current Projects
                                                 </h3>
-                                                <ul>
-                                                    <li>+ <a href="{{ page.project1link }}">{{ page.project1 }}</a>
+                                                <ul class="plus">
+                                                    <li><a href="{{ page.project1link }}">{{ page.project1 }}</a>
                                                     </li>
-                                                    <li>+ <a href="{{ page.project2link }}">{{ page.project2 }}</a></li>
+                                                    <li><a href="{{ page.project2link }}">{{ page.project2 }}</a></li>
                                                 </ul>
                                             </div>
                                             <div class = "column has-text-left">
                                                 <h3 class = "underline">
                                                     Recent Lecture
                                                 </h3>
-                                                {% assign post = site.posts.first %}
-                                                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>
+                                                <ul>
+                                                    {% assign post = site.posts.first %}
+                                                    <li>
+                                                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>
+                                                    </li>
+                                                </ul>
                                                 {{ post.author }}
+                                            </div>
+                                            <div class = "column has-text-left">
+                                                <h3 class = "underline">
+                                                    Stay Connected
+                                                </h3>
+                                                <ul>
+                                                    <li><a href="https://gtagency.slack.com"><i class="fa fa-slack" aria-hidden="true"></i> Slack
+                                                        </a> for updates/discussions.
+                                                    </li>
+                                                    <li><a href="https://facebook.com/gtagency"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook </a> for meeting announcements.
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://drive.google.com/drive/folders/0B2hjlO2NzFMqNWo4UThpVW5kSGM"><i class="fa fa-google" aria-hidden="true"></i> Google Drive</a> for lectures and other resources.
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>

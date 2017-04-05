@@ -298,18 +298,24 @@ ul {
     line-height: 1.7em;
 }
 
+ul.plus li:before {
+    content: "+";
+    position: absolute;
+    left: -5px;
+}
+
+ul.plus li {
+    text-indent -5px;
+}
+
 ul li {
     padding-top: 0.5em;
     font-weight: 400;
 }
 
-ul li:last-child {
-    border: none;
-}
-
-h3[class*="info"] a {
-    text-decoration: none;
-    float: none;
+.fa {
+    font-size: 1.3em !important;
+    vertical-align: middle !important;
 }
 
 #continuelink {
