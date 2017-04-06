@@ -7,7 +7,7 @@ author: Raphael Gontijo Lopes
 moreexists: false
 ---
 <!-- embedded slides should have width="640" height="389" -->
-<iframe width="640" height="360" src="https://www.youtube.com/embed/DYlHnxfrrZY" frameborder="0" allowfullscreen></iframe>
+<div class="has-text-centered" style="width:100%;"><iframe width="640" height="360" src="https://www.youtube.com/embed/DYlHnxfrrZY" frameborder="0" allowfullscreen></iframe></div>
 
 
 Talk given at Georgia Institute of Technology. Feb 16, 2017
@@ -25,5 +25,5 @@ From the TensorFlow Dev Summit:
 
 Slides:
 
-<iframe src="https://docs.google.com/presentation/d/1DKhS7SrGNHRsazp9e-Z4CoTorTB0OXJow1Jh1fYQGPw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="has-text-centered" style="width:100%;"><iframe src="https://docs.google.com/presentation/d/1DKhS7SrGNHRsazp9e-Z4CoTorTB0OXJow1Jh1fYQGPw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 

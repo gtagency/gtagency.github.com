@@ -7,4 +7,4 @@ author: Raphael Gontijo Lopes
 moreexists: false
 ---
 <!-- embedded slides should have width="640" height="389" -->
-<iframe src="https://docs.google.com/presentation/d/1caBfC4NjqHgj9iuHe3u4UwsmO8VCIA5VCNuIfp2fTVE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="has-text-centered" style="width:100%;"><iframe src="https://docs.google.com/presentation/d/1caBfC4NjqHgj9iuHe3u4UwsmO8VCIA5VCNuIfp2fTVE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
