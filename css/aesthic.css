@@ -256,7 +256,7 @@ p {
 
 a {
     color: #3543a1 !important;
-    background: none;
+    background: none !important;
 }
 
 a:hover {
