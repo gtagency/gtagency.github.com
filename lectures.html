@@ -17,8 +17,16 @@ title: Lectures
         <div class = "column">
         </div>
         <div class = "column is-5 padded scrollable-parent">
-            <h1 class="thick-text">All Lectures</h1>
-            <p style="float: right;"><a id="continuelink" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+            <div class="columns">
+              <div class="column">
+                <h1 class="thick-text">All Lectures</h1>
+              </div>
+              <div class="column is-2" style="display:flex">
+                <div class="has-text-centered" style="width:100%; align-self:center">
+                  <p><a id="continuelink" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+                </div>
+              </div>
+            </div>
             <div class = "scrollable-child">
                 <ul style="padding-bottom: 50px; margin-bottom: 50px;">
                     {% for post in site.posts %}
