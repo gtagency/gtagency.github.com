@@ -160,13 +160,15 @@ includecss: aesthic.css
 	<section>
 		<h1 class=" thick-text center-text matched-padding padded">Photos</h1>
 		<div class="columns is-multiline">
-		{% for photo in site.static_files %}
+    {% assign sorted_files = (site.static_files | sort: 'name') | reverse %}
+		{% for photo in sorted_files %}
 			{% if photo.path contains 'photos/' %}
-				<div class="column is-4 container padded">
-					<figure>
-						<img src="{{ site.baseurl }}{{ photo.path }}"></img>
-					</figure>
-				</div>
+        {{ photo }}
+				<!-- <div class="column is-4 container padded"> -->
+					<!-- <figure> -->
+						<!-- <img src="{{ site.baseurl }}{{ photo.path }}"></img> -->
+					<!-- </figure> -->
+				<!-- </div> -->
 			{% endif %}
 		{% endfor %}
 		</div>
