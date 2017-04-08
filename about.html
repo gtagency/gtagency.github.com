@@ -163,12 +163,11 @@ includecss: aesthic.css
     {% assign sorted_files = (site.static_files | sort: 'name') | reverse %}
 		{% for photo in sorted_files %}
 			{% if photo.path contains 'photos/' %}
-        {{ photo }}
-				<!-- <div class="column is-4 container padded"> -->
-					<!-- <figure> -->
-						<!-- <img src="{{ site.baseurl }}{{ photo.path }}"></img> -->
-					<!-- </figure> -->
-				<!-- </div> -->
+        <div class="column is-4 container padded">
+          <figure>
+            <img src="{{ site.baseurl }}{{ photo.path }}"></img>
+          </figure>
+        </div>
 			{% endif %}
 		{% endfor %}
 		</div>
