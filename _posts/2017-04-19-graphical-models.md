@@ -1,6 +1,6 @@
 ---
-title: "Unsupervised Learning"
-header: Unsupervised Learning
+title: "Graphical Models"
+header: Graphical Models
 date: 2017-04-19 00:00:00 -0400
 categories: announcement
 author: Diptodip Deb
