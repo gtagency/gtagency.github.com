@@ -107,7 +107,7 @@ blockquote {
 
 .logo {
     text-align: center !important;
-    width: 300px !important;
+    width: 300px;
     margin-bottom: 1em;
 }
 
@@ -335,25 +335,13 @@ ul li {
         text-align: center;
     }
 
-    .logo {
-        width: 200px !important;
+    body {
+        font-size: 11px !important;
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 2560px) {
     body {
-        font-size: 1.4em;
-    }
-}
-
-@media screen and (min-width: 1800px) {
-    body {
-        font-size: 1.6em;
-    }
-}
-
-@media screen and (min-width: 2000px) {
-    body {
-        font-size: 1.7em;
+        font-size: 14px;
     }
 }
