@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {{ page.title }}
+        </title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl}}">
+        <meta charset="utf-8">
+        <meta name="author" content="GT Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ site.description }}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="is-hidden-touch">
+                {% include navbar_index.html %}
+            </div>
+            <div id="navigation_center" class="is-hidden-desktop">
+                {% include navbar_center_index.html %}
+            </div>
+            <section class="hero is-fullheight">
+                <div class="container horizontal-center">
+                    <div class="hero-head">
+                        <div class="horizontal-center has-text-centered is-hidden-desktop small-logo">
+                            <img src="/agency_background.png"></img>
+                        </div>
+                    </div>
+                    <div class="hero-body">
+                        <div class="container welcome-width">
+                            <div class="tile is-ancestor">
+                                <div class="tile is-parent is-vertical">
+                                    <div class="tile is-child">
+                                    </div>
+                                    <div class="tile is-child has-text-left">
+                                        <h1 class="welcome thick-text">
+                                            Welcome to <a href="#">The Agency.</a></br>We're the AI/ML club</br>at Georgia Tech.
+                                        </h1>
+                                        </br>
+                                        <h2>
+                                            We host talks every Wednesday at
+                                            6:30PM (CCB 345)<br/>and work on
+                                            projects on Tuesdays at 6:00PM (CCB
+                                            346).
+                                        </h2>
+                                    </div>
+                                    <div class = "tile is-child">
+                                        <div class = "columns">
+                                            <div class = "column has-text-left">
+                                                <h3 class = "underline">
+                                                    Current Projects
+                                                </h3>
+                                                <ul class="plus">
+                                                    <li><a href="{{ page.project1link }}">{{ page.project1 }}</a>
+                                                    </li>
+                                                    <li><a href="{{ page.project2link }}">{{ page.project2 }}</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class = "column has-text-left">
+                                                <h3 class = "underline">
+                                                    Recent Lecture
+                                                </h3>
+                                                <ul>
+                                                    {% assign post = site.posts.first %}
+                                                    <li>
+                                                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>
+                                                    </li>
+                                                </ul>
+                                                {{ post.author }}
+                                            </div>
+                                            <div class = "column has-text-left">
+                                                <h3 class = "underline">
+                                                    Stay Connected
+                                                </h3>
+                                                <ul>
+                                                    <li><a href="https://gtagency.slack.com"><i class="fa fa-slack" aria-hidden="true"></i> Slack
+                                                        </a> for updates/discussions.
+                                                    </li>
+                                                    <li><a href="https://facebook.com/gtagency"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook </a> for meeting announcements.
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://drive.google.com/drive/folders/0B2hjlO2NzFMqNWo4UThpVW5kSGM"><i class="fa fa-google" aria-hidden="true"></i> Google Drive</a> for lectures and other resources.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "tile is-parent is-vertical is-hidden-touch is-5">
+                                    <div class = "tile is-child">
+                                    </div>
+                                    <div class = "tile is-child">
+                                        <img src="/agency_background.png" style="margin-left: 30px;" class="logo"></img>
+                                    </div>
+                                    <div class = "tile is-child">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="footer-container">
+                {% include footer.html %}
+            </div>
+        </div>
+    </body>
+</html>
