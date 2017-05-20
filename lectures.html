@@ -9,37 +9,40 @@ title: Lectures
     <div class = "columns">
         <div class = "column is-6 is-pulled-left padded is-hidden-mobile">
             {% assign post = site.posts.first %}
-            <h1 class="thick-text class="thick-text"">{{ post.title }}</h1>
+            <h1 class="thick-text">{{ post.title }}</h1>
             <h3><i>given by</i> {{ post.author }} </h3>
             </br>
             {{ post.content }}
         </div>
         <div class = "column">
         </div>
-        <div class = "column is-5 padded scrollable-parent">
+        <div class = "column is-5 padded">
             <div class="columns">
-              <div class="column">
-                <h1 class="thick-text">All Lectures</h1>
-              </div>
-              <div class="column is-2" style="display:flex">
-                <div class="has-text-centered" style="width:100%; align-self:center">
-                  <p><a id="continuelink" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+                <div class="column">
+                    <h1 class="thick-text">All Lectures</h1>
                 </div>
-              </div>
+                <div class="column is-2" style="display:flex">
+                    <div class="has-text-centered" style="width:100%; align-self:center">
+                        <p><a id="continuelink" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+                    </div>
+                </div>
             </div>
-            <div class = "scrollable-child">
-                <ul style="padding-bottom: 50px; margin-bottom: 50px;">
-                    {% for post in site.posts %}
+            <div class = "scrollable-parent">
+                <div class = "scrollable-child">
+                    <ul style="padding-bottom: 50px; margin-bottom: 50px;">
+                        {% for post in site.posts %}
                         <li>
-                          <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                          <h4 style="display: inline-block;"><i>{{ post.author | date: "%b %-d, %Y" }}</i></h4>
-                          <small>
-                            <p style="display: inline-block;">&nbsp;|&nbsp;{{ post.date | date: "%b %-d, %Y" }}</p>
-                          </small>
+                            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                            <h4 style="display: inline-block;"><i>{{ post.author | date: "%b %-d, %Y" }}</i></h4>
+                            <small>
+                                <p style="display: inline-block;">&nbsp;|&nbsp;{{ post.date | date: "%b %-d, %Y" }}</p>
+                            </small>
                         </li>
-                    {% endfor %}
-                </ul>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
+            <div class = "gradient-fade"></div>
         </div>
     </div>
 </div>
