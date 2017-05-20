@@ -108,7 +108,7 @@ blockquote {
 }
 
 .small-logo {
-    width: 200px !important;
+    width: 250px !important;
     margin-bottom: -20px !important;
 }
 
@@ -346,6 +346,10 @@ ul li {
 
     body {
         font-size: 11px !important;
+    }
+
+    .small-logo {
+        width: 200px !important;
     }
 }
 
