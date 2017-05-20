@@ -170,12 +170,9 @@ includecss: aesthic.css
             </div>
             {% endif %}
             {% endfor %}
+            {% for vid in site.data.videos %}
             <div class="column is-4 container padded">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/csKghReaDcY" frameborder="0" allowfullscreen></iframe>
-            </div>
-            {% for video in site.categories.videos.posts %}
-            <div class="column is-4 container padded">
-                {{ video.embed }}
+                {{ vid.embed }}
             </div>
             {% endfor %}
         </div>
