@@ -55,7 +55,6 @@ includecss: aesthic.css
                                     <h2><b>Deep Learning Paper Reading:</b></h2>
                                     <p>(every 2 weeks after lecture meeting)</p>
                                 </li>
-
                             </ul>
                         </div>
                         <div class = "column has-text-left">
@@ -127,7 +126,6 @@ includecss: aesthic.css
                     </div>
                 </div>
             </div>
-
             <div class="columns">
                 <div class="column" style="padding: 1em;">
                     <h1 class=" thick-text">Current Officers</h1>
@@ -156,7 +154,6 @@ includecss: aesthic.css
                 </div>
                 <div class="column" style="padding: 1em;">
                     <h1 class="thick-text">Notable Alumni</h1>
-
                     <ul>
                         <li>
                             <h2><a href="https://joshuamorton.github.io/">Josh Morton</a></h2>
@@ -203,6 +200,11 @@ includecss: aesthic.css
                 </figure>
             </div>
             {% endif %}
+            {% endfor %}
+            {% for vid in site.data.videos %}
+            <div class="column is-4 container padded">
+                {{ vid.embed }}
+            </div>
             {% endfor %}
         </div>
     </section>
