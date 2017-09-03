@@ -1,0 +1,54 @@
+---
+layout: default
+moreexists: false
+showfeed: true
+permalink: /lectures_by/raphael
+title: Lectures
+---
+<div>
+    <div class = "columns">
+        <div class = "column is-6 is-pulled-left padded is-hidden-mobile">
+            {% for a_post in site.posts %}
+              {% if a_post.author == "Raphael Gontijo Lopes" %}
+                {% assign post = a_post %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            <h1 class="thick-text">{{ post.title }}</h1>
+            <h3><i>given by</i> {{ post.author }} </h3>
+            </br>
+            {{ post.content }}
+        </div>
+        <div class = "column">
+        </div>
+        <div class = "column is-5 padded">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="thick-text">All Lectures</h1>
+                </div>
+            </div>
+            <div class = "scrollable-parent">
+                <div class = "scrollable-child">
+                    <ul style="padding-bottom: 50px; margin-bottom: 50px;">
+                        {% for post in site.posts %}
+                          {% if post.author == "Raphael Gontijo Lopes" %}
+                            <li>
+                                <h2><a href="{{ post.url | prepend: site.baseurl }}">
+                                    {% if post.video %}
+                                      <i class='fa fa-video-camera' aria-hidden='true' style='font-size: 0.8em !important;'></i> 
+                                    {% endif %}
+                                    {{ post.title }}</a></h2>
+                                <h4 style="display: inline-block;"><i>{{ post.author | date: "%b %-d, %Y" }}</i></h4>
+                                <small>
+                                    <p style="display: inline-block;">&nbsp;|&nbsp;{{ post.date | date: "%b %-d, %Y" }}</p>
+                                </small>
+                            </li>
+                          {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class = "gradient-fade"></div>
+        </div>
+    </div>
+</div>

@@ -32,7 +32,11 @@ title: Lectures
                     <ul style="padding-bottom: 50px; margin-bottom: 50px;">
                         {% for post in site.posts %}
                         <li>
-                            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                            <h2><a href="{{ post.url | prepend: site.baseurl }}">
+                                {% if post.video %}
+                                  <i class='fa fa-video-camera' aria-hidden='true' style='font-size: 0.8em !important;'></i> 
+                                {% endif %}
+                                {{ post.title }}</a></h2>
                             <h4 style="display: inline-block;"><i>{{ post.author | date: "%b %-d, %Y" }}</i></h4>
                             <small>
                                 <p style="display: inline-block;">&nbsp;|&nbsp;{{ post.date | date: "%b %-d, %Y" }}</p>

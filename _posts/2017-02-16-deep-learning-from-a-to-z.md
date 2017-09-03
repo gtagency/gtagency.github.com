@@ -5,6 +5,7 @@ date: 2017-02-16 00:00:00 -0400
 categories: announcement
 author: Raphael Gontijo Lopes
 moreexists: false
+video: true
 ---
 <!-- embedded slides should have width="640" height="389" -->
 <div class="has-text-centered" style="width:100%;"><iframe width="640" height="360" src="https://www.youtube.com/embed/DYlHnxfrrZY" frameborder="0" allowfullscreen></iframe></div>
