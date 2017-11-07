@@ -8,7 +8,7 @@ moreexists: false
 video: true
 ---
 <!-- embedded slides should have width="640" height="389" -->
-<div class="has-text-centered" style="width:100%;"><iframe width="640" height="360" src="https://youtu.be/giv8ef_S7w4" frameborder="0" allowfullscreen></iframe></div>
+<div class="has-text-centered" style="width:100%;"><iframe width="640" height="360" src="https://www.youtube.com/embed/giv8ef_S7w4" frameborder="0" allowfullscreen></iframe></div>
 
 
 Talk given at Georgia Institute of Technology. Nov 2, 2017
