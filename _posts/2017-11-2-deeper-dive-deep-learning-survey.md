@@ -23,5 +23,5 @@ Previous talk: [Deep Learning from A to Z](https://gtagency.github.io/2017/deep-
 
 Slides:
 
-<div class="has-text-centered" style="width:100%;"><iframe src="https://docs.google.com/presentation/d/1wTJM6dMlJUOd0XQXFMIPKbeIRr8CJOe2ZJLwUneCPt4/edit?usp=sharing" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+<div class="has-text-centered" style="width:100%;"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLHlw9Il4tmeQt2EYS55Wupp90YaDOCyKyEadwfk7CccNL0yYknZAq0GUulmpdYtx_-mVwP7YU-HTY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 
