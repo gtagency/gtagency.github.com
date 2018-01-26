@@ -7,5 +7,6 @@ author: Kevin Berry
 moreexists: false
 ---
 <!-- embedded slides should have width="640" height="389" -->
-<div class="has-text-centered" style="width:100%;"><iframe src="https://docs.google.com/presentation/d/1lii3zj1NDXQHcx4G5bT0AQcIH_hXZqnl_1eND0wNlzA/edit?usp=sharing" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+<div class="has-text-centered" style="width:100%;">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6fa7WHQnzsVTP4Xu7ARSrO_IXCD63LTZ4XvWT8tgHiuM4AUinsIpsugxdFgNW7CdTthqZEH1kEg4Z/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 
