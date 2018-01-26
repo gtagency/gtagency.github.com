@@ -3,7 +3,7 @@ title: "A Survey of Deep Learning"
 header: A Survey of Deep Learning
 date: 2018-01-24 00:00:00 -0400
 categories: announcement
-author: Marc Marone
+author: "Marc Marone"
 moreexists: false
 ---
 <!-- embedded slides should have width="640" height="389" -->
