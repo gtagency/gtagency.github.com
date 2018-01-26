@@ -3,7 +3,7 @@ title: "Intro to Command Line, Python, and Git"
 header: Intro to Command Line, Python, and Git
 date: 2018-01-16 00:00:00 -0400
 categories: announcement
-author: Sahit Chintalapudi
+author: Raphael Gontijo Lopes
 moreexists: false
 ---
 <!-- embedded slides should have width="640" height="389" -->
