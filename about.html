@@ -191,7 +191,7 @@ includecss: aesthic.css
     <section>
         <h1 class=" thick-text center-text matched-padding padded">Photos</h1>
         <div class="columns is-multiline">
-            {% assign sorted_files = (site.static_files | sort: 'name') | reverse %}
+            {% assign sorted_files = site.static_files | sort: 'name' | reverse %}
             {% for photo in sorted_files %}
             {% if photo.path contains 'photos/' %}
             <div class="column is-4 container padded">
