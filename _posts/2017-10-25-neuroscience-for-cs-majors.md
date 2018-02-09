@@ -1,7 +1,7 @@
 ---
 title: "Neuroscience for CS Majors"
 header: Neuroscience for CS Majors
-date: 2017-09-20 00:00:00 -0400
+date: 2017-10-25 00:00:00 -0400
 categories: announcement
 author: Diptodip Deb
 moreexists: false
