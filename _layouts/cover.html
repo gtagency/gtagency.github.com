@@ -67,14 +67,13 @@
                                                 <h3 class = "underline">
                                                     Recent Lecture
                                                 </h3>
-                                                Fall 2018 Lectures TBA
-                                                <!--<ul>-->
-                                                    <!--{% assign post = site.posts.first %}-->
-                                                    <!--<li>-->
-                                                        <!--<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>-->
-                                                    <!--</li>-->
-                                                <!--</ul>-->
-                                                <!--{{ post.author }}-->
+                                                <ul>
+                                                    {% assign post = site.posts.first %}
+                                                    <li>
+                                                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </br> <i>given by</i> </br>
+                                                    </li>
+                                                </ul>
+                                                {{ post.author }}
                                             </div>
                                             <div class = "column has-text-left">
                                                 <h3 class = "underline">
