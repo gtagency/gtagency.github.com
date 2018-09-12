@@ -200,6 +200,13 @@ h3 {
     font-weight: 700 !important;
 }
 
+em {
+    font-style: italic !important;
+    font-size: 1.2em !important;
+    font-weight: 700 !important;
+    color: #f44242 !important;
+}
+
 .underline {
     text-decoration: underline;
     text-decoration-color: #7447b7;
