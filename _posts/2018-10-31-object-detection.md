@@ -7,4 +7,4 @@ author: Arda Pekis
 moreexists: false
 ---
 <!--embedded slides should have width="640" height="389" -->
-<iframe src="https://docs.google.com/presentation/d/1gphlIJgB9f55lFl8KqsIlfp05g0tHWFvgCbZs_RyKfs/edit?usp=sharing" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRBJteWAvue5GdCyYMT-qxXEGog-EYXxGnB4MjHFWBtE-5J_RIj0hdD-CYWUAHQ_NWC-ZtpK2BSH1Vu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
