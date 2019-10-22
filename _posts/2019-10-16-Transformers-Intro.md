@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to Transformers"
 header:
-date: 2019-10-22
+date: 2019-10-16
 categories: announcement
 author: Anish Thite
 moreexists: false
