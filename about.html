@@ -129,27 +129,27 @@ includecss: aesthic.css
                     <h1 class=" thick-text">Current Officers</h1>
                     <ul>
                         <li>
-                            <h2><b>External Relations</b> </br> <a href="https://github.com/agaction">Akhil Goel</a></h2>
+                            <h2><b>External Relations</b> <br> <a href="https://github.com/ganeshmm">Ganesh Murugappan</a></h2>
                             <p><p>
                         </li>
                         <li>
-                            <h2><b>Internal Operations</b> </br> <a href="https://github.com/nthistle">Neil Thistlethwaite</a></h2>
-                            <p>The GAN man</p>
-                        </li>
-                        <li>
-                            <h2><b>Vice Internal Operations</b> </br> <a href="https://skyline-9.github.io/">Richard Luo</a></h2>
-                            <p>Weight Training With Neural Nets</p>
-                        </li>
-                        <li>
-                            <h2><b>Secretary</b> </br> <a href="">Gautham Gorti</a></h2>
-                            <p><p>
-                        </li>
-                        <li>
-                            <h2><b>Treasurer</b> </br> <a href="https://github.com/vivekvjk">Vivek Vijaykumar</a></h2>
+                            <h2><b>Internal Operations</b> <br> <a href="https://github.com/vivekvjk">Vivek Vijaykumar</a></h2>
                             <p></p>
                         </li>
                         <li>
-                            <h2><b>Communications</b> </br> <a href="https://github.com/ganeshmm">Ganesh Murugappan</a></h2>
+                            <h2><b>Vice Internal Operations</b> <br> <a href="https://skyline-9.github.io/">Richard Luo</a></h2>
+                            <p>Weight Training With Neural Nets</p>
+                        </li>
+                        <li>
+                            <h2><b>Secretary</b> <br> <a href="">Abhay Sheshadri</a></h2>
+                            <p><p>
+                        </li>
+                        <li>
+                            <h2><b>Treasurer</b> <br> <a href="">Ori Yoked</a></h2>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h2><b>Communications</b> <br> <a href="https://github.com/jgulian">Joseph Gulian</a></h2>
                             <p></p>
                         </li>
                     </ul>
@@ -157,6 +157,18 @@ includecss: aesthic.css
                 <div class="column" style="padding: 1em;">
                     <h1 class="thick-text">Notable Alumni</h1>
                     <ul>
+                        <li>
+                            <h2><a href="https://github.com/agaction">Akhil Goel</a></h2>
+                            <p>External Relations</p>
+                        </li>
+                        <li>
+                            <h2><a href="https://github.com/nthistle">Neil Thistlethwaite</a></h2>
+                            <p>Internal Operations</p>
+                        </li>
+                        <li>
+                            <h2><a href="">Gautham Gorti</a></h2>
+                            <p>Secretary</p>
+                        </li>
                         <li>
                             <h2><a href="https://anishthite.github.io">Anish Thite</a></h2>
                             <p>External Relations</p>
@@ -230,7 +242,7 @@ includecss: aesthic.css
             {% if photo.path contains 'photos/' %}
             <div class="column is-4 container padded">
                 <figure>
-                    <img src="{{ site.baseurl }}{{ photo.path }}"></img>
+                    <img alt="" src="{{ site.baseurl }}{{ photo.path }}">
                 </figure>
             </div>
             {% endif %}
