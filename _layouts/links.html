@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {{ page.title }}
+        </title>
+        <link rel="icon" href="/favicon.ico">
+        <link rel="stylesheet" href="{{ "/css/aesthic.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "/css/bulma.css" | prepend: site.baseurl }}">
+        <meta charset="utf-8">
+        <meta name="author" content="GT Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ site.description }}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="navigation" class="is-hidden-touch">
+                {% include navbar_index.html %}
+            </div>
+            <div id="navigation_center" class="is-hidden-desktop">
+                {% include navbar_center_index.html %}
+            </div>
+            <div id="content" class="container">
+                    <h1 class="thick-text has-text-centered padded">Thanks for checking us out!</h1>
+                    <div class="column is-4 container padded">
+                      <h2 class="thick-text">
+                        <a href="https://agencychat.vercel.app"
+                          >Free GPT-4 Chatbot</a
+                        >
+                      </h2>
+                      <p>
+                        For FREE access to GPT-4, fill out the Agency interest form below, then sign into <a href="https://agencychat.vercel.app">Agency Chat</a>. Make sure to use the same Google account for both.
+                      </p>
+                    </div>
+                    <div class="column is-4 container padded">
+                      <h2 class="thick-text">
+                        <a href="https://forms.gle/4RE3ijpPALtA2q526"
+                          >Form</a
+                        >
+                      </h2>
+                      <p>
+                        The Agency&apos;s 2024 interest <a href="https://forms.gle/4RE3ijpPALtA2q526">form</a>, takes &lt; 15 seconds
+                      </p>
+                    </div>
+            </div>
+        </div>
+            <div id="footer-container">
+                {% include footer.html %}
+            </div>
+            </div>
+    </body>
+</html>
