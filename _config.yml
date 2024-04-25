@@ -7,7 +7,7 @@
 
 # Site settings
 title: 'The Agency'
-description: 'The undergraduate AI/ML club at GT.'
+description: 'The AI/ML club at GT.'
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://gtagency.github.io' # the base hostname & protocol for your site
 
